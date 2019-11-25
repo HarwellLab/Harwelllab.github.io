@@ -1,0 +1,12 @@
+
+# # picture should be 200x200px
+# # put it in /assets/team/your-name.png
+#   pic: yourface.png
+
+
+- name: Corey Harwell
+  title: Associate Professor
+  pic: 
+  Fun Fact: this is a funfact
+  Email: Corey_Harwell@hms.harvard.edu
+  
