@@ -6,6 +6,12 @@
 # github: <github-id>
 # twitter: <twitter-id>
 
-- name: Cellular Diversity in the Cortex
-
-    Details Here
+- name: Cell Specification in development
+  
+  projects:
+      - name: Cortex?
+        summary: >
+           Things and stuff
+      - name: septum???
+        summary: >
+            

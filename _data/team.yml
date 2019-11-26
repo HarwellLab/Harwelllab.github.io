@@ -1,0 +1,21 @@
+# # required:
+# - name: Your Name
+#   title: Your Position
+# # optional, but recommended:
+# # picture should be 200x200px
+# # put it in /assets/team/your-name.png
+#   pic: yourface.png
+#   twitter: yourtwitter
+#   github: yourgithub
+#   site: http://example.com
+#   cv: http://example.com/my-cv.pdf
+#   interests:
+#       - Thing 1
+#       - Thing 2
+#       - Thing 3
+
+- name: Corey Harwell
+  title: Associate Professor
+  pic: Corey.png
+  interests:
+     - FUN fact?
