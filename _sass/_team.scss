@@ -1,8 +1,8 @@
-.team {
+.members {
     text-align: justify;
 }
 
-.team__stretch {
+.members__stretch {
     display: inline-block;
     width: 100%;
     line-height: 0;
@@ -49,7 +49,7 @@
 }
 
 @media (max-width: 574px) {
-    .team {
+    .members {
         text-align: center;
     }
 }
