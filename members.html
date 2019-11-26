@@ -5,11 +5,11 @@ subtitle: The people who keep the lab going.
 permalink: /Members/
 color: indigo
 ---
-<div class='team'>
-    {% for person in site.data.team %}
+<div class='members'>
+    {% for person in site.data.members %}
     <div class='person'>
     {% if person.pic %}
-        <img src='/assets/team/{{ person.pic }}'/>
+        <img src='/assets/members/{{ person.pic }}'/>
     {% else %}
         <a class='fa fa-user-secret' ></a>
     {% endif %}
@@ -26,16 +26,16 @@ color: indigo
         </ul>
     </div>
     {% endfor %}
-    <span class='team__stretch'></span>
+    <span class='members__stretch'></span>
 </div>
 
 <h1>Former Members</h1>
 
-<div class='team'>
-    {% for person in site.data.former_team %}
+<div class='members'>
+    {% for person in site.data.former_members %}
     <div class='person'>
     {% if person.pic %}
-        <img src='/assets/team/{{ person.pic }}'/>
+        <img src='/assets/members/{{ person.pic }}'/>
     {% else %}
         <a class='fa fa-user-secret'></a>
     {% endif %}
@@ -60,5 +60,5 @@ color: indigo
         </ul>
     </div>
     {% endfor %}
-    <span class='team__stretch'></span>
+    <span class='members__stretch'></span>
 </div>
