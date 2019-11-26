@@ -1,51 +1,51 @@
-.project {
+.research {
     margin-bottom: 50px;
     overflow: hidden;
 }
 
-.project__container {
+.research__container {
     float: left;
     max-width: 650px;
 
 }
 
-.project__header {
+.research__header {
     margin-bottom: 5px;
 }
 
-.project__title {
+.research__title {
     font-size: 26px;
     font-weight: bold;
 }
 
-.project__social {
+.research__social {
     font-size: 20px;
     line-height: 26px;
     float: right;
 }
 
-.project__summary {
+.research__summary {
     text-align: justify;
 }
 
-.project__image {
+.research__image {
     font-size: 100px;
     width: 110px;
     float: right;
     text-align: center;
 }
 
-.project__image a {
+.research__image a {
     text-decoration: none;
 }
 
 @media (max-width: 800px) {
-    .project__title {
+    .research__title {
         font-size: 22px;
         font-weight: bold;
     }
 
-    .project__image {
+    .research__image {
         display: none;
     }
 }
