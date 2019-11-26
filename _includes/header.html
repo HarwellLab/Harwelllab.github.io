@@ -2,7 +2,7 @@
     <div class="navigation">
         <a href="/" class="logo">{{ site.title }}</a>
         <span>
-            <a href="https://neuro.hms.harvard.edu">Department of Neurobiology, HMS</a>,
+            <a href="https://neuro.hms.harvard.edu">Department of Neurobiology, HMS</a>
         </span>
 
         <ul class="menu">{% for title in site.data.navigation %}{% for p in site.pages %}{% if p.title == title %}{% assign current = nil %}{% if p.title == page.title %}{% assign current = 'current' %}{% endif %}
