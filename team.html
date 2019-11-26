@@ -1,0 +1,64 @@
+---
+layout: page
+title: Team
+subtitle: The people who keep the lab going.
+permalink: /team/
+color: indigo
+---
+<div class='team'>
+    {% for person in site.data.team %}
+    <div class='person'>
+    {% if person.pic %}
+        <img src='/assets/team/{{ person.pic }}'/>
+    {% else %}
+        <a class='fa fa-user-secret' ></a>
+    {% endif %}
+        <ul class='details'>
+            <li class='details__attribute details--name'>{{ person.name }}</li>
+            <li class='details__attribute details--title'>{{ person.title }}</li>
+            {% if person.interests %}
+            <li class='details__attribute details--interests'>
+            {% for interest in person.interests %}
+                <span class='attribute__interest'>{{interest}}</span><br />
+            {% endfor %}
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+    {% endfor %}
+    <span class='team__stretch'></span>
+</div>
+
+<h1>Former Members</h1>
+
+<div class='team'>
+    {% for person in site.data.former_team %}
+    <div class='person'>
+    {% if person.pic %}
+        <img src='/assets/team/{{ person.pic }}'/>
+    {% else %}
+        <a class='fa fa-user-secret'></a>
+    {% endif %}
+        <ul class='details'>
+            <li class='details__attribute details--name'>{{ person.name }}</li>
+            <li class='details__attribute details--title'>{{ person.title }}</li>
+            <li class='details__attribute details--social'>
+
+            {% if person.currently %}
+            <li class='details__attribute details--interests'>
+                Now at:<br />
+            {% if person.currently.url %}
+                <a href={{person.currently.url}} target="_blank">
+            {% endif %}
+                <span class='attribute__interest'>{{person.currently.place}}</span>
+            {% if person.currently.url %}
+                </a>
+            {% endif %}
+            </li>
+            {% endif %}
+
+        </ul>
+    </div>
+    {% endfor %}
+    <span class='team__stretch'></span>
+</div>

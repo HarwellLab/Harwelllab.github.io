@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# Caporaso Lab Website
 
-You can use the [editor on GitHub](https://github.com/HarwellLab/Harwelllab.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+http://caporasolab.us
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Bootstrapping a Development Environment
 
-### Markdown
+Please get `ruby` and `jekyll` installed on your development machine through
+whatever mechanism or channel that is most appropriate for you. Once you have
+`jekyll` installed you should be able to view the site locally by running:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+jekyll run
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Adding a New Team Member
 
-### Jekyll Themes
+Check out this demo [Pull Request](https://help.github.com/articles/about-pull-requests/)
+to see an example of what adding a new profile might look like:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/HarwellLab/Harwelllab.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[https://github.com/caporaso-lab/caporaso-lab.github.io/pull/54](https://github.com/caporaso-lab/caporaso-lab.github.io/pull/54)

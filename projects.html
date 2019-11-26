@@ -1,0 +1,21 @@
+---
+layout: page
+title: Projects
+subtitle: Developmental Neurobiology and Cell Specification
+permalink: /projects/
+color: darkslateblue
+---
+{% for section in site.data.projects %}
+    <h1 id="{{section.name | downcase | replace:' ','_' }}">{{section.name}}</h1>
+    {% for project in section.projects %}
+        <div class="project">
+            <div class="project__container">
+                <div class="project__header">
+                    <span class="project__title">
+                <div class="project__summary">
+                </div>
+                    {{project.summary}}
+                </div>
+            </div>
+    {% endfor %}
+{% endfor %}
