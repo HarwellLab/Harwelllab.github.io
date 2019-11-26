@@ -4,7 +4,7 @@ description: >
   The Harwell Lab in the department of Neurobiology at Harvard University. 
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.harwelllab.github.io" # the base hostname & protocol for your site
+url: "harwelllab.github.io" # the base hostname & protocol for your site
 
 author:
   fullname: Corey Harwell
