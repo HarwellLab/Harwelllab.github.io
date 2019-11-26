@@ -1,20 +1,20 @@
 ---
 layout: page
-title: Projects
+title: Research
 subtitle: Developmental Neurobiology and Cell Specification
-permalink: /projects/
+permalink: /research/
 color: firebrick
 ---
-{% for section in site.data.projects %}
+{% for section in site.data.Research %}
     <h1 id="{{section.name | downcase | replace:' ','_' }}">{{section.name}}</h1>
-    {% for project in section.projects %}
-        <div class="project">
-            <div class="project__container">
-                <div class="project__header">
-                    <span class="project__title">
-                <div class="project__summary">
+    {% for research in section.research %}
+        <div class="research">
+            <div class="research__container">
+                <div class="research__header">
+                    <span class="research__title">
+                <div class="research__summary">
                 </div>
-                    {{project.summary}}
+                    {{Research.summary}}
                 </div>
             </div>
     {% endfor %}
