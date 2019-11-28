@@ -8,7 +8,7 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: white;
+  background: rgb(77, 76, 76);
   color: black;
   -webkit-text-size-adjust: none;
 }
