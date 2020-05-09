@@ -4,21 +4,46 @@
 #   pic: yourface.png
 
 
-- name: Corey Harwell
-  title: Associate Professor
-  pic: corey.jpg
-  interests: this is a funfact
-  Email: Corey_Harwell@hms.harvard.edu
 
-- name: Miguel Turerro Garcia 
+
+- name: Miguel Turerro Garcia, PhD 
   title: Postdoctoral Fellow
   pic: miguel.jpg
   interests: this is a funfact
-  Email: Miguel_TuerreroGarcia@hms.harvard.edu
+  Email: Miguel_TurreroGarcia@hms.harvard.edu
   
-- name: Corey Harwell
-  title: Associate Professor
-  pic: corey.jpg
+- name: Yajun Xie, PhD
+  title: Postdoctoral Fellow
+  pic: yajun.jpg
   interests: this is a funfact
-  Email: Corey_Harwell@hms.harvard.edu
+  Email: Yajun_Xie@hms.harvard.edu
+
+- name: Manal Adam, PhD
+  title: Postdoctoral Fellow
+  pic: manni.jpg
+  interests: this is a funfact
+  Email: Manal_Adam@hms.harvard.edu
+
+- name: Christopher Reid
+  title: Graduate Student, Program in Neuroscience
+  pic: chris.jpg
+  interests: this is a funfact
+  Email: christopherreid@g.harvard.edu
   
+- name: Tiara Lacey
+  title: Graduate Student, Biological and Biomedical Sciences
+  pic: Tiara.jpg
+  interests: this is a funfact
+  Email:tel911@g.harvard.edu
+
+- name: Olivia Mosto
+  title: Lab Manager
+  pic: Olivia.jpg
+  interests: this is a funfact
+  Email: Olivia_Mosto@hms.harvard.edu
+  
+- name: Steve Vu
+  title: Lab Manager
+  pic: Steve.jpg
+  interests: this is a funfact
+  Email: Steve_Vu@hms.harvard.edu
