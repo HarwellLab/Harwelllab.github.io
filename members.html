@@ -11,7 +11,7 @@ color: purple
     {% for person in site.data.PI %}
     <div class='person2'>
     {% if person.pic %}
-        <img  src='/assets/members/{{ person.pic }}'/>
+        <img class="person2" src='/assets/members/{{ person.pic }}'/>
     {% endif %}
         <ul class='details'>
             <li class='details__attribute details--name'>{{ person.name }}</li>
@@ -29,11 +29,6 @@ color: purple
     {% endfor %}
     <span class='members__stretch2'></span>
 </div>
-<div class="index">
-    <div class="index__bumper" style="float: inline-end;"> Corey completed his PhD in the laboratory of Dr. Elly Nedivi at the Massachusetts Institute of Technology. He later went on to join the lab of Arnold Kriegstein at UCSF before accepting a tenure track position of HMS.
-
-    </div>
-</div> 
 
 <h1>Members</h1>
 <div class='members'>
