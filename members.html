@@ -6,8 +6,32 @@ permalink: /Members/
 color: purple
 ---
 
-<h1>Members</h1>
+<h1>PI</h1>
+<div class='members'>
+    {% for person in site.data.PI %}
+    <div class='person'>
+    {% if person.pic %}
+        <img src='/assets/members/{{ person.pic }}'/>
+    {% else %}
+        <a class='fa fa-user-secret' ></a>
+    {% endif %}
+        <ul class='details'>
+            <li class='details__attribute details--name'>{{ person.name }}</li>
+            <li class='details__attribute details--title'>{{ person.title }}</li>
+            {% if person.interests %}
+            <li class='details__attribute details--interests'>
+            {% for interest in person.interests %}
+                <span class='attribute__interest'>{{interest}}</span><br />
+            {% endfor %}
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+    {% endfor %}
+    <span class='members__stretch'></span>
+</div>
 
+<h1>Members</h1>
 <div class='members'>
     {% for person in site.data.members %}
     <div class='person'>
