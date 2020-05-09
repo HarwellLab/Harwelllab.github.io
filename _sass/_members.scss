@@ -21,14 +21,15 @@
 }
 
 .person2 {
-    width: 500px;
+    width: 100%;
     display: inline-block;
     position: relative;
     vertical-align: top;
     margin: 10px 0;
 }
-.person img {
+.person2 img {
     margin: 0;
+    width: 100%;
 }
 
 .details {
