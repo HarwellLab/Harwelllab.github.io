@@ -13,9 +13,20 @@
 #       place: New Example Lab
 #       url: example.com
 
-- name: Manuel Baizabal
+- name: Manuel Baizabal, PhD
   title: Postdoctoral Fellow
   pic: manuel.jpg
   currently:
       place: Assistant Research Professor, Indiana University
 
+- name: Luis Sullivan, PhD
+  title: Postdoctoral Fellow
+  pic: manuel.jpg
+  currently:
+      place: 
+
+- name: Busola Olukoya
+  title: Graduate Rotation Student, Program in Neuroscience
+  pic: manuel.jpg
+  currently:
+      place: Graduate student in Goodrich Lab 

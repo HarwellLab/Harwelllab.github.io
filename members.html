@@ -11,10 +11,10 @@ color: purple
     {% for person in site.data.PI %}
     <div class='person'>
     {% if person.pic %}
-        <img  style="float: right; display: inline-block;" src='/assets/members/{{ person.pic }}'/>
+        <img  style="float:right; display: inline-block;" src='/assets/members/{{ person.pic }}'/>
    
     {% endif %}
-        <ul class='details' style="float: left; display: inline-block;">
+        <ul class='details' style="float:left; display: inline-block;">
             <li class='details__attribute details--name'>{{ person.name }}</li>
             <li class='details__attribute details--title'>{{ person.title }}</li>
             {% if person.interests %}
@@ -78,7 +78,7 @@ color: purple
 
             {% if person.currently %}
             <li class='details__attribute details--interests'>
-                Now at:<br />
+                Currently:<br />
             {% if person.currently.url %}
                 <a href={{person.currently.url}} target="_blank">
             {% endif %}
