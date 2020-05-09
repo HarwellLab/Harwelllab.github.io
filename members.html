@@ -12,8 +12,7 @@ color: purple
     <div class='person'>
     {% if person.pic %}
         <img  style="float: right; display: inline-block;" src='/assets/members/{{ person.pic }}'/>
-    {% else %}
-        <a class='fa fa-user-secret' ></a>
+   
     {% endif %}
         <ul class='details' style="float: left; display: inline-block;">
             <li class='details__attribute details--name'>{{ person.name }}</li>
