@@ -31,6 +31,12 @@ img.image2 {
     margin-right: auto;
     width: 50%;
   }
+img.image3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+  }
 blockquote {
     letter-spacing: 3px;
     margin:0px;
@@ -70,7 +76,7 @@ strong {
 /* =Header */
 .wrapper {
     max-width: 60%;
-    margin: 100px auto;
+    margin: 60px auto;
 }
 
 .header {
