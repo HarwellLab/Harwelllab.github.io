@@ -38,7 +38,7 @@
 
 - name: Olivia Mosto
   title: Lab Manager
-  pic: Olivia.jpg
+  pic: Olivia.jpeg
   interests: this is a funfact
   Email: Olivia_Mosto@hms.harvard.edu
   
@@ -47,3 +47,9 @@
   pic: Steve.jpg
   interests: this is a funfact
   Email: Steve_Vu@hms.harvard.edu
+
+- name: Diana Tran
+  title: Research Assistant
+  pic: diana.jpg
+  interests: this is a funfact
+  Email: Diana_Tran@hms.harvard.edu
