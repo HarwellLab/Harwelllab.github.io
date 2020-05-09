@@ -3,18 +3,18 @@
         <a href="/" class="logo">{{ site.title }}</a>
         <span>
             <a href="https://neuro.hms.harvard.edu">Department of Neurobiology, HMS</a>
-        </span>
-
-        <ul class="menu">{% for title in site.data.navigation %}{% for p in site.pages %}{% if p.title == title %}{% assign current = nil %}{% if p.title == page.title %}{% assign current = 'current' %}{% endif %}
-            <li class="menu__entry {{current}}"><a href="{{ p.permalink | prepend: site.baseurl }}" style="border-color: {{p.color}}">{{p.title}}</a></li>{% endif %}{% endfor %}{% endfor %}
-        </ul>
-    </div>
-    <ul class="social-links">
+        <ul class="social-links">
         {% if site.author.twitter %}
             <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
                 <i class="fa fa-twitter"></i>
             </a>
         {% endif %}
-    </ul>
+    </ul></span>
+
+        <ul class="menu">{% for title in site.data.navigation %}{% for p in site.pages %}{% if p.title == title %}{% assign current = nil %}{% if p.title == page.title %}{% assign current = 'current' %}{% endif %}
+            <li class="menu__entry {{current}}"><a href="{{ p.permalink | prepend: site.baseurl }}" style="border-color: {{p.color}}">{{p.title}}</a></li>{% endif %}{% endfor %}{% endfor %}
+        </ul>
+    </div>
+    
 </header>
 
