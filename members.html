@@ -11,11 +11,11 @@ color: purple
     {% for person in site.data.PI %}
     <div class='person'>
     {% if person.pic %}
-        <img src='/assets/members/{{ person.pic }}'/>
+        <img  style="float: right; display: inline-block;" src='/assets/members/{{ person.pic }}'/>
     {% else %}
         <a class='fa fa-user-secret' ></a>
     {% endif %}
-        <ul class='details' style="float: left;">
+        <ul class='details' style="float: left; display: inline-block;">
             <li class='details__attribute details--name'>{{ person.name }}</li>
             <li class='details__attribute details--title'>{{ person.title }}</li>
             {% if person.interests %}
