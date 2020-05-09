@@ -7,7 +7,11 @@
     width: 100%;
     line-height: 0;
 }
-
+.members__stretch2 {
+    display: inline-block;
+    width: 40%;
+    line-height: 0;
+}
 .person {
     width: 220px;
     display: inline-block;
@@ -16,6 +20,13 @@
     margin: 10px 0;
 }
 
+.person2 {
+    width: 220px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin: 10px 0;
+}
 .person img {
     margin: 0;
 }
