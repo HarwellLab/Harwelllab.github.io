@@ -114,8 +114,9 @@ strong {
 }
 
 .menu__entry a:hover {
-    border-bottom: 2px solid $cloudy;
-    text-decoration: none;
+    border-top: 4px solid #a200ff;
+    border-bottom: 4px solid #a200ff;
+    padding: 6px 0; 
 }
 
 .menu__entry.current a {
